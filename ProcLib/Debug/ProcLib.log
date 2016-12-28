@@ -1,0 +1,9 @@
+﻿  ProcLibImp.cpp
+h:\malistov\refactoring_1\proclib\proclibimp.cpp(177): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+h:\malistov\refactoring_1\proclib\proclibimp.cpp(177): warning C4244: 'initializing': conversion from 'double' to 'const unsigned int', possible loss of data
+h:\malistov\refactoring_1\proclib\proclibimp.cpp(184): warning C4018: '<': signed/unsigned mismatch
+h:\malistov\refactoring_1\proclib\proclibimp.cpp(227): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+  dllexport.cpp
+  Generating Code...
+     Creating library H:\Malistov\Refactoring_1\Debug\ProcLib.lib and object H:\Malistov\Refactoring_1\Debug\ProcLib.exp
+  ProcLib.vcxproj -> H:\Malistov\Refactoring_1\Debug\ProcLib.dll

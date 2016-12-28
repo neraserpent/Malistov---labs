@@ -1,0 +1,21 @@
+﻿Построение начато 08.12.2016 15:57:32.
+     1>Проект "C:\Users\Windows 7\Documents\Git repos\Малистов\Refactoring_1\ProcessingLib\ProcessingLib.vcxproj" в узле 2 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\ProcessingLib.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Обращение к "Debug\ProcessingLib.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ProcessingLib.pch.codeanalysis" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze /errorReport:prompt dllexport.cpp ProcessingLibImplementation.cpp /clr:nostdlib 
+         dllexport.cpp
+     1>dllexport.cpp(14): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "StdAfx.h"" в источник.
+         ProcessingLibImplementation.cpp
+     1>ProcessingLibImplementation.cpp(239): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "StdAfx.h"" в источник.
+         Выполнение анализа кода для C/C++...
+         Создание кода...
+     1>Построение проекта "C:\Users\Windows 7\Documents\Git repos\Малистов\Refactoring_1\ProcessingLib\ProcessingLib.vcxproj" завершено (целевые объекты rebuild) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:00.24
