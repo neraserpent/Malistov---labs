@@ -33,7 +33,6 @@ int main()
 	try
 	{
 		//«агрузка dll
-		//≈сли тут сменить папку dll c Debug на Release, скорость работы увеличитьс€ (перед этим надо собрать release dll)
 		dll_handle = LoadLibraryA("H:\\Malistov\\Refactoring_1\\Debug\\ProcLib.dll");
 
 		if (!dll_handle)
@@ -83,7 +82,7 @@ int main()
 		FreeLibrary(dll_handle);
 		std::cout << "Done" << std::endl;
 	}
-	catch (const std::exception) //в случае ошибок чистим за собой пам€ть
+	catch (const std::exception) 
 	{
 		if (image_io)
 			image_io->Release();
@@ -103,8 +102,7 @@ int main()
 	HINSTANCE dll_handle = 0;
 
 	try
-	{
-		//≈сли тут сменить папку dll c Debug на Release, скорость работы увеличитьс€ (перед этим надо собрать release dll)
+	{		
 		dll_handle = LoadLibraryA("H:\\Malistov\\Refactoring_1\\Debug\\ProcLib.dll");
 
 		if (!dll_handle)
@@ -137,7 +135,7 @@ int main()
 
 		std :: cout << "Done" << std :: endl;
 	}
-	catch (const std::exception) //в случае ошибок чистим за собой пам€ть
+	catch (const std::exception)
 	{
 		std::cout << "exception have been thrown" << std::endl;
 		system("PAUSE");
